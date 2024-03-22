@@ -1,6 +1,6 @@
 # pizza_ontology
 
-Model Pizza Ontology with Protégé
+Model Pizza Ontology with [Protégé](https://protege.stanford.edu)
 
 ## Screenshots
 
