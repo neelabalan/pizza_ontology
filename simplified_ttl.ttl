@@ -1,0 +1,912 @@
+@prefix ns1: <http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:AmericanaHotPizza1 a ns1:AmericanaHotPizza,
+        ns1:CheezyPizza,
+        ns1:HighCaloriePizza,
+        ns1:InterestingPizza,
+        ns1:NamedPizza,
+        ns1:Pizza,
+        ns1:SpicyPizza,
+        owl:NamedIndividual ;
+    ns1:hasColoricContent 513 .
+
+ns1:AmericanaPizza1 a ns1:AmericanaPizza,
+        ns1:CheezyPizza,
+        ns1:HighCaloriePizza,
+        ns1:InterestingPizza,
+        ns1:NamedPizza,
+        ns1:Pizza,
+        owl:NamedIndividual ;
+    ns1:hasColoricContent 723 .
+
+ns1:MargheritaPizza1 a ns1:CheezyPizza,
+        ns1:LowCaloriePizza,
+        ns1:MargheritaPizza,
+        ns1:NamedPizza,
+        ns1:Pizza,
+        ns1:VegetarianPizza,
+        owl:NamedIndividual ;
+    ns1:hasColoricContent 263 .
+
+ns1:SohoPizza1 a ns1:CheezyPizza,
+        ns1:HighCaloriePizza,
+        ns1:InterestingPizza,
+        ns1:NamedPizza,
+        ns1:Pizza,
+        ns1:SohoPizza,
+        ns1:VegetarianPizza,
+        owl:NamedIndividual ;
+    ns1:hasColoricContent 413 .
+
+ns1:isMilderThan a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf ns1:isSpicierThan .
+
+<http://www.semanticweb.org/neelabalan/ontologies/2024/2/pizza_ontology> a owl:Ontology .
+
+owl:Thing rdfs:comment "Pizza Ontology from A Practical Guide to Building OWL Ontologies" .
+
+ns1:hasBase a owl:ObjectProperty ;
+    rdfs:domain ns1:Pizza ;
+    rdfs:range ns1:PizzaBase ;
+    rdfs:subPropertyOf ns1:hasIngredient ;
+    owl:inverseOf ns1:isBaseOf .
+
+ns1:isBaseOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:isIngredientOf .
+
+ns1:isSpicierThan a owl:ObjectProperty ;
+    rdfs:domain ns1:Spiciness ;
+    rdfs:range ns1:Spiciness ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+ns1:isToppingOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:isIngredientOf .
+
+ns1:AmericanaHotPizza a owl:Class ;
+    rdfs:comment "A pizza that only has Mozzarella, Tomato and Pepperoni toppings." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:hasTopping ;
+            owl:someValuesFrom ns1:JapapenoPepperTopping ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:hasTopping ;
+            owl:someValuesFrom ns1:MozzarellaTopping ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:hasTopping ;
+            owl:someValuesFrom ns1:PepperoniTopping ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:hasTopping ;
+            owl:someValuesFrom ns1:TomatoTopping ],
+        ns1:CheezyPizza,
+        ns1:InterestingPizza,
+        ns1:NamedPizza,
+        ns1:SpicyPizza ;
+    owl:disjointWith ns1:AmericanaPizza,
+        ns1:AnchovyTopping,
+        ns1:CaperTopping,
+        ns1:CheeseTopping,
+        ns1:DeepPanBase,
+        ns1:GreenPepperTopping,
+        ns1:HamTopping,
+        ns1:JapapenoPepperTopping,
+        ns1:MargheritaPizza,
+        ns1:MeatTopping,
+        ns1:MozzarellaTopping,
+        ns1:MushroomTopping,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:PizzaBase,
+        ns1:PizzaTopping,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:Mild a ns1:Spiciness,
+        owl:NamedIndividual ;
+    ns1:isMilderThan ns1:Medium .
+
+ns1:hasIngredient a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf ns1:isIngredientOf .
+
+ns1:hasSpiciness a owl:ObjectProperty ;
+    rdfs:domain ns1:PizzaTopping ;
+    rdfs:range ns1:Spiciness ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+ns1:AmericanaPizza a owl:Class ;
+    rdfs:comment "A pizza that only has Mozzarella, Tomato and Pepperoni toppings." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:hasTopping ;
+            owl:someValuesFrom ns1:MozzarellaTopping ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:hasTopping ;
+            owl:someValuesFrom ns1:PepperoniTopping ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:hasTopping ;
+            owl:someValuesFrom ns1:TomatoTopping ],
+        ns1:CheezyPizza,
+        ns1:InterestingPizza,
+        ns1:NamedPizza ;
+    owl:disjointWith ns1:AnchovyTopping,
+        ns1:CaperTopping,
+        ns1:CheeseTopping,
+        ns1:DeepPanBase,
+        ns1:GreenPepperTopping,
+        ns1:HamTopping,
+        ns1:JapapenoPepperTopping,
+        ns1:MargheritaPizza,
+        ns1:MeatTopping,
+        ns1:MozzarellaTopping,
+        ns1:MushroomTopping,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:PizzaBase,
+        ns1:PizzaTopping,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:AnchovyTopping a owl:Class ;
+    rdfs:subClassOf ns1:SeafoodTopping ;
+    owl:disjointWith ns1:CaperTopping,
+        ns1:CheeseTopping,
+        ns1:CheezyPizza,
+        ns1:DeepPanBase,
+        ns1:GreenPepperTopping,
+        ns1:HamTopping,
+        ns1:HighCaloriePizza,
+        ns1:InterestingPizza,
+        ns1:JapapenoPepperTopping,
+        ns1:LowCaloriePizza,
+        ns1:MargheritaPizza,
+        ns1:MeatTopping,
+        ns1:MozzarellaTopping,
+        ns1:MushroomTopping,
+        ns1:NamedPizza,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:Pizza,
+        ns1:PizzaBase,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:Medium a ns1:Spiciness,
+        owl:NamedIndividual ;
+    ns1:isMilderThan ns1:Hot ;
+    ns1:isSpicierThan ns1:Mild .
+
+ns1:hasColoricContent a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain ns1:Pizza ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+ns1:isIngredientOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+ns1:CaperTopping a owl:Class ;
+    rdfs:subClassOf ns1:VegetableTopping ;
+    owl:disjointWith ns1:CheeseTopping,
+        ns1:CheezyPizza,
+        ns1:DeepPanBase,
+        ns1:GreenPepperTopping,
+        ns1:HamTopping,
+        ns1:HighCaloriePizza,
+        ns1:InterestingPizza,
+        ns1:JapapenoPepperTopping,
+        ns1:LowCaloriePizza,
+        ns1:MargheritaPizza,
+        ns1:MeatTopping,
+        ns1:MozzarellaTopping,
+        ns1:MushroomTopping,
+        ns1:NamedPizza,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:Pizza,
+        ns1:PizzaBase,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetarianPizza .
+
+ns1:Hot a ns1:Spiciness,
+        owl:NamedIndividual ;
+    ns1:isSpicierThan ns1:Medium .
+
+owl:topObjectProperty a owl:ReflexiveProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty .
+
+ns1:DeepPanBase a owl:Class ;
+    rdfs:subClassOf ns1:PizzaBase ;
+    owl:disjointWith ns1:GreenPepperTopping,
+        ns1:HamTopping,
+        ns1:HighCaloriePizza,
+        ns1:InterestingPizza,
+        ns1:JapapenoPepperTopping,
+        ns1:LowCaloriePizza,
+        ns1:MargheritaPizza,
+        ns1:MeatTopping,
+        ns1:MozzarellaTopping,
+        ns1:MushroomTopping,
+        ns1:NamedPizza,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:Pizza,
+        ns1:PizzaTopping,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:Spiciness a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:oneOf ( ns1:Hot ns1:Medium ns1:Mild ) ] .
+
+ns1:GreenPepperTopping a owl:Class ;
+    rdfs:subClassOf ns1:PepperTopping ;
+    owl:disjointWith ns1:HamTopping,
+        ns1:HighCaloriePizza,
+        ns1:InterestingPizza,
+        ns1:JapapenoPepperTopping,
+        ns1:LowCaloriePizza,
+        ns1:MargheritaPizza,
+        ns1:MeatTopping,
+        ns1:MozzarellaTopping,
+        ns1:MushroomTopping,
+        ns1:NamedPizza,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperoniTopping,
+        ns1:Pizza,
+        ns1:PizzaBase,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetarianPizza .
+
+ns1:CheeseTopping a owl:Class ;
+    rdfs:subClassOf ns1:PizzaTopping ;
+    owl:disjointWith ns1:CheezyPizza,
+        ns1:DeepPanBase,
+        ns1:GreenPepperTopping,
+        ns1:HamTopping,
+        ns1:HighCaloriePizza,
+        ns1:InterestingPizza,
+        ns1:JapapenoPepperTopping,
+        ns1:LowCaloriePizza,
+        ns1:MargheritaPizza,
+        ns1:MeatTopping,
+        ns1:MushroomTopping,
+        ns1:NamedPizza,
+        ns1:OliveTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:Pizza,
+        ns1:PizzaBase,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:HamTopping a owl:Class ;
+    rdfs:subClassOf ns1:MeatTopping ;
+    owl:disjointWith ns1:HighCaloriePizza,
+        ns1:InterestingPizza,
+        ns1:JapapenoPepperTopping,
+        ns1:LowCaloriePizza,
+        ns1:MargheritaPizza,
+        ns1:MozzarellaTopping,
+        ns1:MushroomTopping,
+        ns1:NamedPizza,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:Pizza,
+        ns1:PizzaBase,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:HighCaloriePizza a owl:Class ;
+    rdfs:subClassOf ns1:Pizza ;
+    owl:disjointWith ns1:JapapenoPepperTopping,
+        ns1:LowCaloriePizza,
+        ns1:MeatTopping,
+        ns1:MozzarellaTopping,
+        ns1:MushroomTopping,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:PizzaBase,
+        ns1:PizzaTopping,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SpicyBeefTopping,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( ns1:Pizza [ a owl:Restriction ;
+                        owl:onProperty ns1:hasColoricContent ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:integer ;
+                                owl:withRestrictions ( [ xsd:minInclusive 400 ] ) ] ] ) ] .
+
+ns1:LowCaloriePizza a owl:Class ;
+    rdfs:subClassOf ns1:Pizza ;
+    owl:disjointWith ns1:MeatTopping,
+        ns1:MozzarellaTopping,
+        ns1:MushroomTopping,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:PizzaBase,
+        ns1:PizzaTopping,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SpicyBeefTopping,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( ns1:Pizza [ a owl:Restriction ;
+                        owl:onProperty ns1:hasColoricContent ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:integer ;
+                                owl:withRestrictions ( [ xsd:maxExclusive 400 ] ) ] ] ) ] .
+
+ns1:CheezyPizza a owl:Class ;
+    rdfs:subClassOf ns1:Pizza ;
+    owl:disjointWith ns1:DeepPanBase,
+        ns1:GreenPepperTopping,
+        ns1:HamTopping,
+        ns1:JapapenoPepperTopping,
+        ns1:MeatTopping,
+        ns1:MozzarellaTopping,
+        ns1:MushroomTopping,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:PizzaBase,
+        ns1:PizzaTopping,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SpicyBeefTopping,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( ns1:Pizza [ a owl:Restriction ;
+                        owl:onProperty ns1:hasTopping ;
+                        owl:someValuesFrom ns1:CheeseTopping ] ) ] .
+
+ns1:MargheritaPizza a owl:Class ;
+    rdfs:comment "A pizza that only has Mozzarella and Tomato toppings." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:hasTopping ;
+            owl:someValuesFrom ns1:MozzarellaTopping ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:hasTopping ;
+            owl:someValuesFrom ns1:TomatoTopping ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom [ a owl:Class ;
+                    owl:unionOf ( ns1:MozzarellaTopping ns1:TomatoTopping ) ] ;
+            owl:onProperty ns1:hasTopping ],
+        ns1:CheezyPizza,
+        ns1:NamedPizza,
+        ns1:VegetarianPizza ;
+    owl:disjointWith ns1:MeatTopping,
+        ns1:MozzarellaTopping,
+        ns1:MushroomTopping,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:PizzaBase,
+        ns1:PizzaTopping,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping .
+
+ns1:InterestingPizza a owl:Class ;
+    rdfs:comment "Pizza that has minimum of 3 toppings" ;
+    rdfs:subClassOf ns1:Pizza ;
+    owl:disjointWith ns1:JapapenoPepperTopping,
+        ns1:MeatTopping,
+        ns1:MozzarellaTopping,
+        ns1:MushroomTopping,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:PizzaBase,
+        ns1:PizzaTopping,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SpicyBeefTopping,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( ns1:Pizza [ a owl:Restriction ;
+                        owl:minQualifiedCardinality "3"^^xsd:nonNegativeInteger ;
+                        owl:onClass ns1:PizzaTopping ;
+                        owl:onProperty ns1:hasTopping ] ) ] .
+
+ns1:JapapenoPepperTopping a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue ns1:Hot ;
+            owl:onProperty ns1:hasSpiciness ],
+        ns1:PepperTopping ;
+    owl:disjointWith ns1:LowCaloriePizza,
+        ns1:MargheritaPizza,
+        ns1:MeatTopping,
+        ns1:MozzarellaTopping,
+        ns1:MushroomTopping,
+        ns1:NamedPizza,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperoniTopping,
+        ns1:Pizza,
+        ns1:PizzaBase,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetarianPizza .
+
+ns1:MushroomTopping a owl:Class ;
+    rdfs:subClassOf ns1:VegetableTopping ;
+    owl:disjointWith ns1:NamedPizza,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:Pizza,
+        ns1:PizzaBase,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetarianPizza .
+
+ns1:MeatTopping a owl:Class ;
+    rdfs:subClassOf ns1:PizzaTopping ;
+    owl:disjointWith ns1:MozzarellaTopping,
+        ns1:MushroomTopping,
+        ns1:NamedPizza,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:Pizza,
+        ns1:PizzaBase,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:NamedPizza a owl:Class ;
+    rdfs:subClassOf ns1:Pizza ;
+    owl:disjointWith ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:PizzaBase,
+        ns1:PizzaTopping,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SpicyBeefTopping,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping .
+
+ns1:PizzaTopping a owl:Class ;
+    owl:disjointWith ns1:SohoPizza,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:VegetarianPizza .
+
+ns1:hasTopping a owl:ObjectProperty ;
+    rdfs:domain ns1:Pizza ;
+    rdfs:range ns1:PizzaTopping ;
+    rdfs:subPropertyOf ns1:hasIngredient ;
+    owl:inverseOf ns1:isToppingOf .
+
+ns1:MozzarellaTopping a owl:Class ;
+    rdfs:subClassOf ns1:CheeseTopping ;
+    owl:disjointWith ns1:MushroomTopping,
+        ns1:NamedPizza,
+        ns1:OliveTopping,
+        ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:Pizza,
+        ns1:PizzaBase,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:ParmesanTopping a owl:Class ;
+    rdfs:subClassOf ns1:CheeseTopping ;
+    owl:disjointWith ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:Pizza,
+        ns1:PizzaBase,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:OliveTopping a owl:Class ;
+    rdfs:subClassOf ns1:VegetableTopping ;
+    owl:disjointWith ns1:ParmesanTopping,
+        ns1:PepperTopping,
+        ns1:PepperoniTopping,
+        ns1:Pizza,
+        ns1:PizzaBase,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetarianPizza .
+
+ns1:PepperTopping a owl:Class ;
+    rdfs:subClassOf ns1:VegetableTopping ;
+    owl:disjointWith ns1:PepperoniTopping,
+        ns1:Pizza,
+        ns1:PizzaBase,
+        ns1:PrawnTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetarianPizza .
+
+ns1:PepperoniTopping a owl:Class ;
+    rdfs:subClassOf ns1:MeatTopping ;
+    owl:disjointWith ns1:Pizza,
+        ns1:PizzaBase,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:SpicyPizza a owl:Class ;
+    rdfs:subClassOf ns1:Pizza ;
+    owl:disjointWith ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( ns1:Pizza [ a owl:Restriction ;
+                        owl:onProperty ns1:hasTopping ;
+                        owl:someValuesFrom [ a owl:Restriction ;
+                                owl:hasValue ns1:Hot ;
+                                owl:onProperty ns1:hasSpiciness ] ] ) ] .
+
+ns1:PrawnTopping a owl:Class ;
+    rdfs:subClassOf ns1:SeafoodTopping ;
+    owl:disjointWith ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:RedPepperTopping a owl:Class ;
+    rdfs:subClassOf ns1:PepperTopping ;
+    owl:disjointWith ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetarianPizza .
+
+ns1:SohoPizza a owl:Class ;
+    rdfs:comment "A pizza that only has Mozzarella and Tomato toppings." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:hasTopping ;
+            owl:someValuesFrom ns1:MozzarellaTopping ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:hasTopping ;
+            owl:someValuesFrom ns1:OliveTopping ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:hasTopping ;
+            owl:someValuesFrom ns1:ParmesanTopping ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:hasTopping ;
+            owl:someValuesFrom ns1:TomatoTopping ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom [ a owl:Class ;
+                    owl:unionOf ( ns1:MozzarellaTopping ns1:OliveTopping ns1:ParmesanTopping ns1:TomatoTopping ) ] ;
+            owl:onProperty ns1:hasTopping ],
+        ns1:CheezyPizza,
+        ns1:InterestingPizza,
+        ns1:NamedPizza,
+        ns1:VegetarianPizza ;
+    owl:disjointWith ns1:SpicyBeefTopping,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping .
+
+ns1:SalamiTopping a owl:Class ;
+    rdfs:subClassOf ns1:MeatTopping ;
+    owl:disjointWith ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:PizzaBase a owl:Class ;
+    owl:disjointWith ns1:PizzaTopping,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:SeafoodTopping a owl:Class ;
+    rdfs:subClassOf ns1:PizzaTopping ;
+    owl:disjointWith ns1:SohoPizza,
+        ns1:SpicyBeefTopping,
+        ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:SpicyBeefTopping a owl:Class ;
+    rdfs:subClassOf ns1:MeatTopping ;
+    owl:disjointWith ns1:SpicyPizza,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:ThinAndCrispyBase a owl:Class ;
+    rdfs:subClassOf ns1:PizzaBase ;
+    owl:disjointWith ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:VegetarianPizza a owl:Class ;
+    rdfs:subClassOf ns1:Pizza ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( ns1:Pizza [ a owl:Restriction ;
+                        owl:allValuesFrom [ a owl:Class ;
+                                owl:unionOf ( ns1:CheeseTopping ns1:VegetableTopping ) ] ;
+                        owl:onProperty ns1:hasTopping ] ) ] .
+
+ns1:TunaTopping a owl:Class ;
+    rdfs:subClassOf ns1:SeafoodTopping ;
+    owl:disjointWith ns1:VegetableTopping,
+        ns1:VegetarianPizza .
+
+ns1:VegetableTopping a owl:Class ;
+    rdfs:subClassOf ns1:PizzaTopping ;
+    owl:disjointWith ns1:VegetarianPizza .
+
+ns1:Pizza a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:hasBase ;
+            owl:someValuesFrom ns1:PizzaBase ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:hasColoricContent ;
+            owl:someValuesFrom xsd:integer ] ;
+    owl:disjointWith ns1:PizzaBase,
+        ns1:PizzaTopping,
+        ns1:PrawnTopping,
+        ns1:RedPepperTopping,
+        ns1:SalamiTopping,
+        ns1:SeafoodTopping,
+        ns1:SpicyBeefTopping,
+        ns1:ThinAndCrispyBase,
+        ns1:TomatoTopping,
+        ns1:TunaTopping,
+        ns1:VegetableTopping .
+
+ns1:TomatoTopping a owl:Class ;
+    rdfs:subClassOf ns1:VegetableTopping ;
+    owl:disjointWith ns1:TunaTopping,
+        ns1:VegetarianPizza .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( ns1:AmericanaHotPizza ns1:AmericanaPizza ns1:MargheritaPizza ns1:SohoPizza ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( ns1:AnchovyTopping ns1:PrawnTopping ns1:TunaTopping ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( ns1:CaperTopping ns1:MushroomTopping ns1:OliveTopping ns1:PepperTopping ns1:TomatoTopping ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( ns1:CheeseTopping ns1:MeatTopping ns1:SeafoodTopping ns1:VegetableTopping ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( ns1:GreenPepperTopping ns1:JapapenoPepperTopping ns1:RedPepperTopping ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( ns1:HamTopping ns1:PepperoniTopping ns1:SalamiTopping ns1:SpicyBeefTopping ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( ns1:Pizza ns1:PizzaBase ns1:PizzaTopping ) .
+

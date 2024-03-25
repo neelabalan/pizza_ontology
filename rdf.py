@@ -2,8 +2,10 @@
 import csv
 import json
 from urllib.parse import urlparse
+from rdf_wrapper import RdfGraph
 
 import rdflib
+import sparql_queries
 
 g = rdflib.Graph()
 g.parse("pizza_ontology.ttl", format="turtle")
@@ -27,8 +29,14 @@ def dump_triples(log: bool = False, with_uri: bool = False):
             writer.writerow([subj, pred, obj])
 
 
+def dump_simplified_ttl():
+    with open("simplified_ttl.ttl", "wb") as file:
+        g.serialize(file, format="turtle", encoding="utf-8")
+
+
 def format_graph_response(response: rdflib.query.Result) -> list[dict[str, str]]:
     json_response = json.loads(response.serialize(format="json").decode())
+    print(json_response)
     response = []
     bindings = json_response.get("results", {}).get("bindings")
     if not bindings:
@@ -41,5 +49,15 @@ def format_graph_response(response: rdflib.query.Result) -> list[dict[str, str]]
     return response
 
 
+def run_some_queries():
+    print(json.dumps(format_graph_response(g.query(sparql_queries.is_spicy_pizza)), indent=4))
+    print(json.dumps(format_graph_response(g.query(sparql_queries.has_caloric_content)), indent=4))
+    print(json.dumps(format_graph_response(g.query(sparql_queries.all_toppings)), indent=4))
+
+
 if __name__ == "__main__":
-    dump_triples(log=True)
+    # dump_triples(log=True)
+    # dump_simplified_ttl()
+    run_some_queries()
+    # rdf_graph = RdfGraph("pizza_ontology.ttl")
+    # print(rdf_graph.get_schema)
