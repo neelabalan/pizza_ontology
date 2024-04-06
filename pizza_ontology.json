@@ -1,0 +1,3443 @@
+[
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#AnchovyTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CaperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheeseTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheezyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#DeepPanBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#GreenPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HamTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HighCaloriePizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#InterestingPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#JapapenoPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#LowCaloriePizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MargheritaPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#AmericanaPizza1",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#AmericanaPizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheezyPizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HighCaloriePizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#InterestingPizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+        ],
+        "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasColoricContent": [
+            {
+                "@value": 723
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#DeepPanBase",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#GreenPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HamTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HighCaloriePizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#InterestingPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#JapapenoPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#LowCaloriePizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MargheritaPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb94",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+        ],
+        "http://www.w3.org/2002/07/owl#members": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb37"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb38"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb37",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasBase"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb38",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasColoricContent"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb70",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+        ],
+        "http://www.w3.org/2002/07/owl#members": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#AnchovyTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasIngredient"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#inverseOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#isToppingOf"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#AmericanaPizza",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@value": "A pizza that only has Mozzarella, Tomato and Pepperoni toppings."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheezyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#InterestingPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb5"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb6"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb7"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#AnchovyTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CaperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheeseTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#DeepPanBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#GreenPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HamTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#JapapenoPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MargheritaPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb5",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb6",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb7",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Medium",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Spiciness"
+        ],
+        "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#isMilderThan": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Hot"
+            }
+        ],
+        "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#isSpicierThan": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Mild"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.w3.org/2002/07/owl#Thing",
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@value": "Pizza Ontology from A Practical Guide to Building OWL Ontologies"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@value": "A pizza that only has Mozzarella and Tomato toppings."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheezyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#InterestingPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb39"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb40"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb41"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb42"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb43"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb39",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb40",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb41",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb42",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb43",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#allValuesFrom": [
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb44"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb44",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#unionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb89",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+        ],
+        "http://www.w3.org/2002/07/owl#members": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HamTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#GreenPepperTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HamTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HighCaloriePizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#InterestingPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#JapapenoPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#LowCaloriePizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MargheritaPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasSpiciness",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Spiciness"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            {
+                "@id": "http://www.w3.org/2002/07/owl#topObjectProperty"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasBase",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasIngredient"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#inverseOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#isBaseOf"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HighCaloriePizza",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#JapapenoPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#LowCaloriePizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#equivalentClass": [
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb12"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb12",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#intersectionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+                    },
+                    {
+                        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb13"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb13",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasColoricContent"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb14"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb14",
+        "@type": [
+            "http://www.w3.org/2000/01/rdf-schema#Datatype"
+        ],
+        "http://www.w3.org/2002/07/owl#onDatatype": [
+            {
+                "@id": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#withRestrictions": [
+            {
+                "@list": [
+                    {
+                        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb15"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb15",
+        "http://www.w3.org/2001/XMLSchema#minInclusive": [
+            {
+                "@value": 400
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#isIngredientOf",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            {
+                "@id": "http://www.w3.org/2002/07/owl#topObjectProperty"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb80",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+        ],
+        "http://www.w3.org/2002/07/owl#members": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheeseTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheeseTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasColoricContent",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "http://www.w3.org/2002/07/owl#FunctionalProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            {
+                "@id": "http://www.w3.org/2002/07/owl#topDataProperty"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#isToppingOf",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#isIngredientOf"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#AmericanaHotPizza1",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#AmericanaHotPizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheezyPizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HighCaloriePizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#InterestingPizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+        ],
+        "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasColoricContent": [
+            {
+                "@value": 513
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/pizza_ontology",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Ontology"
+        ]
+    },
+    {
+        "@id": "http://www.w3.org/2002/07/owl#topObjectProperty",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#SymmetricProperty",
+            "http://www.w3.org/2002/07/owl#TransitiveProperty",
+            "http://www.w3.org/2002/07/owl#ReflexiveProperty"
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#isBaseOf",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#isIngredientOf"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#equivalentClass": [
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb58"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb58",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#intersectionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+                    },
+                    {
+                        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb59"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb59",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#allValuesFrom": [
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb60"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb60",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#unionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheeseTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HamTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HighCaloriePizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#InterestingPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#JapapenoPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#LowCaloriePizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MargheritaPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#AmericanaHotPizza",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@value": "A pizza that only has Mozzarella, Tomato and Pepperoni toppings."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheezyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#InterestingPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb1"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb2"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb3"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb4"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#AmericanaPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#AnchovyTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CaperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheeseTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#DeepPanBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#GreenPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HamTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#JapapenoPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MargheritaPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb1",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#JapapenoPepperTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb2",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb3",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb4",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#isSpicierThan",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Spiciness"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Spiciness"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            {
+                "@id": "http://www.w3.org/2002/07/owl#topObjectProperty"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Mild",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Spiciness"
+        ],
+        "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#isMilderThan": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Medium"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#InterestingPizza",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@value": "Pizza that has minimum of 3 toppings"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#JapapenoPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#equivalentClass": [
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb19"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb19",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#intersectionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+                    },
+                    {
+                        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb20"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb20",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#minQualifiedCardinality": [
+            {
+                "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+                "@value": "3"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onClass": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheeseTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#JapapenoPepperTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb23"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#LowCaloriePizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MargheritaPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb23",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#hasValue": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Hot"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasSpiciness"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Spiciness",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#equivalentClass": [
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb49"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb49",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#oneOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Hot"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Medium"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Mild"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CaperTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheeseTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheezyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#DeepPanBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#GreenPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HamTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HighCaloriePizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#InterestingPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#JapapenoPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#LowCaloriePizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MargheritaPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza1",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheezyPizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HighCaloriePizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#InterestingPizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+        ],
+        "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasColoricContent": [
+            {
+                "@value": 413
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb74",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+        ],
+        "http://www.w3.org/2002/07/owl#members": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CaperTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#LowCaloriePizza",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#equivalentClass": [
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb24"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb24",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#intersectionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+                    },
+                    {
+                        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb25"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb25",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasColoricContent"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb26"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb26",
+        "@type": [
+            "http://www.w3.org/2000/01/rdf-schema#Datatype"
+        ],
+        "http://www.w3.org/2002/07/owl#onDatatype": [
+            {
+                "@id": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#withRestrictions": [
+            {
+                "@list": [
+                    {
+                        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb27"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb27",
+        "http://www.w3.org/2001/XMLSchema#maxExclusive": [
+            {
+                "@value": 400
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MargheritaPizza",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@value": "A pizza that only has Mozzarella and Tomato toppings."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheezyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb31"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb32"
+            },
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb33"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb31",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb32",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb33",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#allValuesFrom": [
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb34"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb34",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#unionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasIngredient",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            {
+                "@id": "http://www.w3.org/2002/07/owl#topObjectProperty"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#inverseOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#isIngredientOf"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#isMilderThan",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            {
+                "@id": "http://www.w3.org/2002/07/owl#topObjectProperty"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#inverseOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#isSpicierThan"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb85",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+        ],
+        "http://www.w3.org/2002/07/owl#members": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#GreenPepperTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#JapapenoPepperTopping"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#equivalentClass": [
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb53"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb53",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#intersectionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+                    },
+                    {
+                        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb54"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb54",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb55"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb55",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#hasValue": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Hot"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasSpiciness"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheeseTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheezyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#DeepPanBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#GreenPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HamTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HighCaloriePizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#InterestingPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#JapapenoPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#LowCaloriePizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MargheritaPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Hot",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Spiciness"
+        ],
+        "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#isSpicierThan": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Medium"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb65",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+        ],
+        "http://www.w3.org/2002/07/owl#members": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#AmericanaHotPizza"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#AmericanaPizza"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MargheritaPizza"
+                    },
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SohoPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyPizza"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheezyPizza",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#disjointWith": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#DeepPanBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#GreenPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#HamTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#JapapenoPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MeatTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MozzarellaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MushroomTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#OliveTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ParmesanTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PepperoniTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PizzaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#PrawnTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#RedPepperTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SalamiTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SeafoodTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#SpicyBeefTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#ThinAndCrispyBase"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TomatoTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#TunaTopping"
+            },
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetableTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#equivalentClass": [
+            {
+                "@id": "_:ncba7bea01c1e4424962583a7adb7500cb8"
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb8",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#intersectionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza"
+                    },
+                    {
+                        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb9"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "_:ncba7bea01c1e4424962583a7adb7500cb9",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasTopping"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheeseTopping"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MargheritaPizza1",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#CheezyPizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#LowCaloriePizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#MargheritaPizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#NamedPizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#Pizza",
+            "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#VegetarianPizza"
+        ],
+        "http://www.semanticweb.org/neelabalan/ontologies/2024/2/PizzaOntology#hasColoricContent": [
+            {
+                "@value": 263
+            }
+        ]
+    }
+]

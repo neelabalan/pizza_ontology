@@ -33,6 +33,10 @@ def dump_simplified_ttl():
     with open("simplified_ttl.ttl", "wb") as file:
         g.serialize(file, format="turtle", encoding="utf-8")
 
+def dump_json_ld():
+    with open("pizza_ontology.json", "wb") as file:
+        g.serialize(file, format="json-ld", encoding="utf-8")
+
 
 def format_graph_response(response: rdflib.query.Result) -> list[dict[str, str]]:
     json_response = json.loads(response.serialize(format="json").decode())
@@ -58,6 +62,7 @@ def run_some_queries():
 if __name__ == "__main__":
     # dump_triples(log=True)
     # dump_simplified_ttl()
-    run_some_queries()
+    dump_json_ld()
+    # run_some_queries()
     # rdf_graph = RdfGraph("pizza_ontology.ttl")
     # print(rdf_graph.get_schema)
